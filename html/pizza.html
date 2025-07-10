@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedido de Pizza</title>
+</head>
+
+<body>
+    <h1>Exemplo de usos de Checkbox e Radio</h1>
+    <div>
+        <div>
+            <form method="get">
+                <h3>Você Escolheu a Pizza de Calabresa</h3>
+                <p>Quais opcionais você deseja?</p>
+                <!-- o [] depois do opcionais é para que o "post" entenda isso como lista, e não ler apenas o último elemento selecionado -->
+                <!-- disabled deixa o checkbox impossibilitado de marcar -->
+                <input type="checkbox" name="opcionais[]" value="queijo"> + queijo" <br>
+                <input type="checkbox" disabled name="opcionais[]" value="calabresa"> + calabresa" <br>
+                <input type="checkbox" name="opcionais[]" value="cebola"> + cebola" <br>
+                <input type="checkbox" name="opcionais[]" value="azeitona"> + azeitona" <br>
+                <p>Borda Recheada?</p>
+                <input type="radio" name="borda" value="sim">Sim <br>
+                <input type="radio" name="borda" value="nao">Não <br>
+                <p>Bebida</p>
+                <input type="radio" name="bebida" value="suco">Suco <br>
+                <input type="radio" name="bebida" value="refrigerante">Refrigerante <br>
+                <input type="radio" name="bebida" value="agua">Água <br>
+                <input type="radio" name="bebida" value="nenhum">Nenhum <br><br>
+                <button type="submit">Fazer Pedido</button>
+            </form>
+            <br>
+            <button><a href="./index.html">Voltar</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
