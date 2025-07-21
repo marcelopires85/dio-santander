@@ -5,17 +5,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabelas</title>
+    <style>
+        table tr:nth-child(even) {
+            background-color: lightslategrey;
+        }
+
+        table tr:hover td {
+            background-color: gray;
+        }
+    </style>
 </head>
 
 <body>
-    <table border="1" width="240" cellspacing="15" cellpadding="20" align="center">
+    <!-- cellspacing="15" cellpadding="20" -->
+    <!-- são usados para criar espaçamentos dentro da tabela -->
+    <table border="1" width="240" align="center">
         <tr>
             <td>Nome</td>
             <td>Idade</td>
         </tr>
         <tr>
+            <td>Mai</td>
+            <td>36</td>
+        </tr>
+        <tr>
             <td>Marcelo</td>
             <td>40</td>
+        </tr>
+        <tr>
+            <td>Roberto</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td>Letícia</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Flávio</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>Carla</td>
+            <td>56</td>
         </tr>
     </table>
 </body>
