@@ -20,35 +20,45 @@
     <!-- cellspacing="15" cellpadding="20" -->
     <!-- são usados para criar espaçamentos dentro da tabela -->
     <table border="1" width="240" align="center">
-        <tr>
-            <!-- pode usar sumary pra descrever conteudo acessível. -->
-            <th title="Nome Completo">Nome</th>
-            <th>Idade</th>
-        </tr>
-        <tr>
-            <td>Mai</td>
-            <td>36</td>
-        </tr>
-        <tr>
-            <td>Marcelo</td>
-            <td>40</td>
-        </tr>
-        <tr>
-            <td>Roberto</td>
-            <td>60</td>
-        </tr>
-        <tr>
-            <td>Letícia</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Flávio</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Carla</td>
-            <td>56</td>
-        </tr>
+        <caption>Tabela de Idades</caption>
+        <!-- caption ao contrário do summary aparece na tela e também é lido por um leitor -->
+        <thead>
+            <tr>
+                <!-- pode usar summary pra descrever conteudo acessível. -->
+                <th title="Nome Completo">Nome</th>
+                <th>Idade</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mai</td>
+                <td>36</td>
+            </tr>
+            <tr>
+                <td>Marcelo</td>
+                <td>40</td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>60</td>
+            </tr>
+            <tr>
+                <td>Letícia</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>Flávio</td>
+                <td>18</td>
+            </tr>
+            <tr>
+                <td>Carla</td>
+                <td>56</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td class="tr">Total</td>
+            <td class="tr">6</td>
+        </tfoot>
     </table>
 </body>
 
