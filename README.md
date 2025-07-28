@@ -36,6 +36,7 @@ HTML Semântico
 3. Foram exibidos recursos de acessibilidade, sobretudo para uso com leitores de tela
 4. Foi falado sobre webscraping, com exemplos e de como o html semântico tira benefício disso, assim como SEO
 5. Diferença entre ASIDE, Section e Nav. Uso de nav ao criar uma lista em forma de menu
+6. Foram adicionados exemplos de uso com article, blockquote e q
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
