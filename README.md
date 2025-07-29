@@ -37,6 +37,9 @@ HTML Semântico
 4. Foi falado sobre webscraping, com exemplos e de como o html semântico tira benefício disso, assim como SEO
 5. Diferença entre ASIDE, Section e Nav. Uso de nav ao criar uma lista em forma de menu
 6. Foram adicionados exemplos de uso com article, blockquote e q
+7. Mostrado exemplos de uso das tags figure e picture
+8. Discussão sobre aplicação e usos de SEO
+9. Entregue primeiro desafio que era um html com resumo de tudo o que foi estudado nesse módulo
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
