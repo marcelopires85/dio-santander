@@ -39,7 +39,34 @@ HTML Semântico
 6. Foram adicionados exemplos de uso com article, blockquote e q
 7. Mostrado exemplos de uso das tags figure e picture
 8. Discussão sobre aplicação e usos de SEO
-9. Entregue primeiro desafio que era um html com resumo de tudo o que foi estudado nesse módulo
+9. Entregue primeiro desafio, que era um html com resumo de tudo o que foi estudado nesse módulo
+10. Entregue segundo desafio, que era uma versão atualizada do wikipedia sobre 3 séries
+
+##### Módulo 4
+
+1. Conceitos sobre CSS
+2. Visto exemplo de CSS Inline, feito diretamente na tag ou dentro da tag style dentro do head
+3. Foram vistos exemplos de uso de seletores no CSS. Seletor de tags, id, classes, universais e de atributo
+4. Exemplos de combinação de uso de vários seletores ao mesmo tempo
+5. Agrupamentos de seletores e combinadores
+6. Exemplos de uso de dimensionamento e espaçamento
+7. Estilização com cores e suas propriedades
+8. Foi visto as tags objectfit e position
+9. Foi visto a tag background-size e suas formas de redimensionamento
+10. Foi visto a tag background-repeat e suas formas de repetição dentro do conteiner
+11. Vista a tag background-position e suas formas de posicionamento usando lados, porcentagem ou pixels
+12. Visto três exemplos do background-attachment. fixed, scroll e local com fundo de imagens
+13. Visto a tag background-origin, e as opções padding-box, border-box e content-box, e como elas interagem com uma borda
+14. Visto background-clip, com as opções também de padding-box, border-box e content-box, mas o uso é feito com cores sólidas ou gradientes em vez de arquivos de imagem
+15. Visto as opções do background-blend-mode, e como usa-lo para mesclagem de fundos e cores
+16. Visto três configurações de borda. width, style e color
+17. Visto exemplos de uso do style em bordas
+18. Visto exemplo de uso de cores em bordas
+19. Assim como no background, é possível usar a tag border sozinha para setar atributos de forma geral e cumulativa
+20. Foi mostrado como arredondar os cantos da borda via border-radius
+21. Como adicionar um arquivo de imagem ou gradiente com border-image-source
+22. Foi mostrado diagrama de como o border-image-slice renderiza uma imagem para borda ou um gradiente
+23. Foi mostrado o uso do border-image-repeat e também o outset. Depois como usar várias tags usando apenas o valor inicial
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
