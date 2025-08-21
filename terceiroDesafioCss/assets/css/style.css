@@ -1,0 +1,47 @@
+.header-bg {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.menu-simbolo {
+  margin: 20px;
+}
+
+.busca {
+  display: flex;
+  flex: 2;
+  margin: 20px;
+  justify-content: center;
+}
+
+.busca input {
+  width: 300px;
+  height: 25px;
+}
+
+.busca img {
+  width: 30px;
+  height: 30px;
+  display: 2;
+  cursor: pointer;
+}
+
+.perfil {
+  display: flex;
+  flex: 1;
+  justify-content: flex-end;
+  gap: 10px;
+}
+.perfil img {
+  width: 30px;
+  height: 30px;
+}
+
+.perfil .usuario {
+  width: 45px;
+  height: 45px;
+  justify-content: center;
+}
