@@ -45,3 +45,28 @@
   height: 45px;
   justify-content: center;
 }
+
+.exibicao {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+.exibicao iframe {
+  width: 950px;
+  height: 500px;
+}
+
+.funcoes p {
+  width: 600px;
+  height: 60px;
+}
+
+.sidebar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sidebar ul li {
+  list-style: none;
+}
