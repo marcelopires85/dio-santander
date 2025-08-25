@@ -48,13 +48,29 @@
 
 .exibicao {
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  flex: 2;
 }
 
 .exibicao iframe {
   width: 950px;
   height: 500px;
+  padding-left: 30px;
+}
+
+.iframexibicao {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: fit-content;
+  padding-left: 30px;
+}
+
+.iframexibicao h1 {
+  padding-left: 30px;
+}
+
+.funcoes {
+  padding-left: 30px;
 }
 
 .funcoes p {
@@ -65,6 +81,7 @@
 .sidebar {
   display: flex;
   flex-wrap: wrap;
+  max-width: fit-content;
 }
 
 .sidebar ul li {
