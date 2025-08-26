@@ -105,8 +105,25 @@ HTML Semântico
 13. Imagens responsivas com srcset e media querie
 14. Tipografia responsiva usando media querie e calc para unidades relativas
 15. Conceito de mobile first, como criar o layout primeiro dessa forma e o adaptar para telas maiores via media querie
+16. Foi finalizado o exercício de clone do Youtube usando displayflex e o aprendido no módulo
 
 ##### 4.4
+
+1. Conceitos sobre grid layout
+2. Adicionando colunas e linhas ao grid com grid-templete-columns/rows e a medida relativa fr para usar como posicionamento e escalas do grid
+3. Visto grid auto para configurar linhas e colunas extras adicionadas automaticamente pelo render automático do css
+4. Usando minmax no grid-auto para configurar tamanho padrão específico do grid
+5. Visto posicionamento usando grid-column-start/end, e usando o span + número da célula ocupada pelo grid
+6. Feito exercício de exemplo nomeando areas com grid-template-areas/area e como utilizar isso para criar espaços de navegação
+7. Visto como usar o shorthand grid-template
+8. Visto como o row-gap e column-gap colocam espaçamento em formato de # no grid. Pode usar o shorthand gap com um valor geral ou dois valores para espaçamento horizontal e vertical
+9. Como utilizar o shorthand grid, usando o primeiro espaço para as rows, e depois da / para as columns. Os tamanhos ou frações ficam depois das configurações de autoflow e grid-areas
+10. Visto como o justify-itens alinha os itens dentro da célula de forma horizontal e como o align-itens os alinha de forma vertical. O valor padrão é strech e estica o item por toda célula
+11. Visto o shorthand place-item que alinha na primeira instrução o mesmo que o justify e na segunda o align. Strech também é a propriedade padrão
+12. Visto como o justify/align-content são utilizados para alinhar os itens dentro da célula onde há espaço não preenchido quando utilizado px em vez de medidades relativas no itens
+13. Visto como é possível abreviar o justify e align com a tag place-content
+14. Alinhar apenas um item dentro da célula, utilizando justify/align-self em seu item, ao invés do conteiner inteiro como nas demais display-grid
+15. Usando o place-self para abreviar o uso do justify/align-self
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
