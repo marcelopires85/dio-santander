@@ -1,0 +1,61 @@
+body {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 459px);
+  grid-template-areas:
+    "header header"
+    "section section"
+    "section section"
+    "section section"
+    "section section"
+    "footer footer";
+}
+
+header {
+  grid-area: header;
+  background-image: url(../img/HeaderBackground.png);
+  background-size: contain;
+  place-items: center;
+  text-align: center;
+}
+
+header h1 {
+  font-family: Luckiest Guy, sans-serif;
+  text-transform: uppercase;
+  font-size: 56px;
+  color: #ffffff;
+}
+
+header p {
+  font-family: Open Sans, sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+header .baixar {
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 20px;
+  border: none;
+  width: 205px;
+  height: 44px;
+}
+
+header .abrir {
+  background-color: #23272a;
+  color: #ffffff;
+  border-radius: 20px;
+  border: none;
+  width: 281px;
+  height: 44px;
+}
+
+section {
+  grid-area: section;
+  background-color: lightblue;
+}
+
+footer {
+  grid-area: footer;
+  background-color: blue;
+}
