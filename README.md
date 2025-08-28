@@ -124,6 +124,8 @@ HTML Semântico
 13. Visto como é possível abreviar o justify e align com a tag place-content
 14. Alinhar apenas um item dentro da célula, utilizando justify/align-self em seu item, ao invés do conteiner inteiro como nas demais display-grid
 15. Usando o place-self para abreviar o uso do justify/align-self
+16. Comecei a fazer projeto do clone do Discord com responsivididade via display grid
+17. Entregue o desafio de responsividade do clone do Discord
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
